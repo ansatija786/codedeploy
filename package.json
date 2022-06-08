@@ -1,0 +1,19 @@
+{
+  "name": "ecs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": ""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ansatija786/ecs.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ansatija786/ecs/issues"
+  },
+  "homepage": "https://github.com/ansatija786/ecs#readme"
+}
