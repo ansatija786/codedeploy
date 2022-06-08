@@ -1,0 +1,10 @@
+version: 0.0
+Resources:
+  - TargetService:
+      Type: AWS::ECS::Service
+      Properties:
+        TaskDefinition: "arn:aws:iam::665965545975:role/ecsTaskExecutionRole"
+        LoadBalancerInfo:
+          ContainerName: "devops"
+          ContainerPort: 80
+        PlatformVersion: "LATEST"
