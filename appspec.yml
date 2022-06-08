@@ -5,6 +5,6 @@ Resources:
       Properties:
         TaskDefinition: "arn:aws:ecs:us-east-1:665965545975:task-definition/ecs:3"
         LoadBalancerInfo:
-          ContainerName: "devops"
+          ContainerName: "ecs"
           ContainerPort: 8080
         PlatformVersion: "LATEST"
