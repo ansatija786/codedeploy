@@ -3,7 +3,7 @@ Resources:
   - TargetService:
       Type: AWS::ECS::Service
       Properties:
-        TaskDefinition: "arn:aws:iam::665965545975:role/ecsTaskExecutionRole"
+        TaskDefinition: "arn:aws:ecs:us-east-1:665965545975:task-definition/ecs:2"
         LoadBalancerInfo:
           ContainerName: "devops"
           ContainerPort: 80
