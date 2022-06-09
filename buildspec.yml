@@ -11,6 +11,6 @@ phases:
     commands:
       - echo Running tests
       - npm test
-  ImageArtifact:
+  artifacts:
     files:
-      - imageDetail.json
+      - '**/*'
