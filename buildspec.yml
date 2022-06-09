@@ -11,3 +11,10 @@ phases:
     commands:
       - echo Running tests
       - npm test
+   
+   artifacts:
+    files:
+      - '**/*'
+    base-directory: base_location
+    name: dev-backend-build-artifacts
+    discard-paths: no
