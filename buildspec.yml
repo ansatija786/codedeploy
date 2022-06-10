@@ -12,4 +12,8 @@ phases:
       - echo Running tests
       - npm test
   artifacts:
-    files: imageDetail.json
+    files:
+      - '**/*'
+    base-directory: 
+    name: 
+    discard-paths: no
