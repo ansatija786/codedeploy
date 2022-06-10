@@ -11,9 +11,10 @@ phases:
     commands:
       - echo Running tests
       - npm test
+  phase:
+    build:
+      commands:
+        - ls
   artifacts:
     files:
-      - '**/*'
-    base-directory: 
-    name: 
-    discard-paths: no
+      - public/*
