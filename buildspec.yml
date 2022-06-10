@@ -11,6 +11,3 @@ phases:
     commands:
       - echo Running tests
       - npm test
-  artifacts:
-    files:
-      - '**/*'
